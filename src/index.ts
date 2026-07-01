@@ -1,10 +1,5 @@
 import express, { type Request, type Response } from 'express';
 
-const DB_Url : string| undefined =process.env.DATABASE
-
-
- 
-
 
 async function insertUser(username: string, password: string, firstName: string, lastName: string) {
   // prisma.
